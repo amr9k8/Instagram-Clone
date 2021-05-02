@@ -1,0 +1,61 @@
+
+.explore-posts-container
+{
+    width: 80%;
+    margin: 50px auto 0;
+    height: auto;
+    background-color:  rgb(252, 252, 252);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+   
+.explore-posts-container .explore-post
+{
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 31%;
+    height: 400px;
+    position: relative;
+}
+
+.explore-posts-container .explore-post img
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+.explore-posts-container .explore-post .explore-transparent-layer
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -9999px;
+    background-color: rgba(8, 8, 8, 0.39);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+   
+.explore-post:hover .explore-transparent-layer
+{
+    left: 0;
+}
+
+
+.explore-posts-container .explore-post .explore-transparent-layer a
+{
+  color: white;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+   Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin:0 30px  0 5px;
+   font-weight: 600;
+}
+   

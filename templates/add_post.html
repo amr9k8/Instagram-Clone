@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>instagram</title>
+        <link href="templates/assets/css/register.css" rel="stylesheet">
+    </head>
+
+    <body>
+     
+
+        <section class="container"> 
+
+            <div class="register">
+                <div class="register-icon">
+                    <img src="templates/assets/images/logo.png" >
+                   </div> 
+    
+                 <div class="register-title"><h4>Add Photos Now And Share Best Moments With Your Friends .</h4></div>  
+               
+                   <div class="register-data">
+                    <form method="POST" action="add_post.php" enctype="multipart/form-data">
+                        <input type="file"     name="post" value="" >
+                        <input type="text"     name="caption" placeholder="Add Caption.." >
+                        <button type="submit" name="upload">Upload</button>
+                        <?php if ($error) echo $error;
+                        else echo $done;?>
+                    </form>
+                   </div> 
+                   <a href='myprofile.php' style="color:black">Back To Profile  </a>
+             </div>
+
+        </section>
+      
+            
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>instagram</title>
+        <link href="templates/assets/css/register.css" rel="stylesheet">
+    </head>
+
+    <body>
+     
+
+        <section class="container"> 
+
+            <div class="register">
+                <div class="register-icon">
+                    <img src="templates/assets/images/logo.png" >
+                   </div> 
+    
+                 <div class="register-title"><h4>Here you can Update Your Data <br>
+                     if you dont want to update something leave it blank .</h4></div>  
+               
+                   <div class="register-data">
+                    <form method="POST" action="updateprofile.php" enctype="multipart/form-data">
+                        <input type="text"     name="username"   placeholder=" New Username">
+                        <input type="text"     name="email"      placeholder=" New Email">
+                        <input type="password" name="password"   placeholder=" New Password">
+                        <input type="file"     name="avatar" value="" >
+                        <button type="submit" name="update">Update</button>
+                        <?php if ($error) echo $error;
+                        else echo $done;?>
+                    </form>
+                   </div> 
+             </div>
+
+        </section>
+      
+            
+        </div>
+    </body>
+
+</html>

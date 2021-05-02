@@ -1,0 +1,207 @@
+
+/*__________________________________________________________________________________________________________
+########################################## [MyProfile stylee ->] ############################################*/
+
+
+.myprofile-container
+{
+    width: 73%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* contain section of avatar and name and captions */
+.myprofile-data-container
+{
+    width: 100%;
+    height: 150px;
+    background-color:  rgb(252, 252, 252);
+    border-bottom: 1px solid rgb(211, 210, 210);
+    padding-bottom:50px ;
+    display: flex;
+    flex-direction: row;
+}
+
+.myprofile-data-container .myprofile-avatar
+{
+    width:30%;
+    height: 100%;
+    text-align:center;
+}
+.myprofile-data-container .myprofile-avatar img
+{
+    margin-top: 6%;
+    width:52%;
+    height: 97%;
+    border-radius: 400px;
+}
+
+
+.myprofile-data-container .myprofile-info
+{
+    width: 70%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+}
+
+.myprofile-data-container .myprofile-name-btn
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.myprofile-data-container .myprofile-name-btn button
+{
+    padding:5px 25px ;
+    height: 30px;
+    margin:30px 0 0 20px;
+    border-radius: 4px;
+    background-color: white;
+    border: solid rgba(177, 177, 177, 0.61) 1px;
+}
+.myprofile-data-container .myprofile-name-btn button a
+{
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: rgb(19, 19, 19);
+    font-size: 15px;
+}
+.myprofile-data-container .myprofile-info h3
+{
+    font-size: 26px;
+    color: rgb(8, 8, 8);
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+}
+.myprofile-data-container .myprofile-following
+{
+    background-color: rgb(252, 252, 252);
+    
+}
+.myprofile-data-container  a
+{
+    font-family: -apple-system, BlinkMacSystemFont, 
+  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;   
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+.myprofile-data-container .myprofile-following span
+{
+  margin:0 15px 0  5px;
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 
+  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 200;
+}
+.myprofile-data-container .myprofile-caption
+{
+    margin-top: 20px;
+}
+
+
+/*  container for ( posts + IGTV + SAVED + TAGGED ) */
+.myprofile-items-container
+{
+    width: 100%;
+    height: 40px;
+    background-color:  rgb(252, 252, 252);
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.myprofile-items-container a
+{   margin-left: 5px;
+    margin-right: 50px;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(168, 166, 166);
+   
+}
+.myprofile-items-container i
+{  
+    margin-right: 5px;
+    font-size: 14px;
+    color: rgba(14, 14, 14, 0.822);
+}
+
+.myprofile-items-container .post-icon a
+{
+    color: black;
+    border-top: rgba(0, 0, 0, 0.664) 1px solid;
+    padding-top: 24px;
+}
+.myprofile-posts-container
+{
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    background-color:  rgb(252, 252, 252);
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+   
+.myprofile-posts-container .post
+{
+    margin-right: 15px;
+    margin-top: 30px;
+    width: 31%;
+    height: 343px;
+    position: relative;
+}
+
+.myprofile-posts-container .post img
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+.myprofile-posts-container .post .transparent-layer
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -9999px;
+    background-color: rgba(8, 8, 8, 0.39);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+   
+ .post:hover .transparent-layer
+{
+    left: 0;
+}
+
+
+.myprofile-posts-container .post .transparent-layer a
+{
+  color: white;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+   Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin:0 30px  0 5px;
+   font-weight: 600;
+}
+   

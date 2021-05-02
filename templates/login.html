@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>IG New Version</title>
+        <link href="templates/assets/css/login.css" rel="stylesheet">
+        <link href="templates/assets/css/all.min.css"     rel="stylesheet">
+    </head>
+
+    <body>
+     
+        <!--  flex parent to control child items (login,sign-up)  -->
+        <section class="container"> 
+
+          <!--flex items  -->
+            <div class="login">
+            
+               <div class="login-icon">
+                <img src="templates/assets/images/logo.png">
+               </div> 
+
+               <div class="login-data">
+                <form method="POST" action="login.php">
+                    <input type="text"     name="username"   placeholder="   Email or Username">
+                    <input type="password" name="password"   placeholder=" password">
+                    <button type="submit" name="login">Log In</button>
+                    <?php if($error)
+                    echo "<div style=\"color:red;margin:5px; \">  ";
+                    echo $error ;
+                    echo "</div>";
+                    ?>
+                </form>
+               </div> 
+               
+             </div>
+
+            <div class="sign-up"> <p>Don't have an account? <a href="register.php">Signup</a></p> </div>
+
+        </section>
+      
+            
+        </div>
+    </body>
+
+</html>

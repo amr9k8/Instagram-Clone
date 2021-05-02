@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>instagram</title>
+        <link href="templates/assets/css/register.css" rel="stylesheet">
+    </head>
+
+    <body>
+     
+
+        <section class="container"> 
+
+            <div class="register">
+                <div class="register-icon">
+                    <img src="templates/assets/images/logo.png" >
+                   </div> 
+    
+                 <div class="register-title"><h4>Sign up to see photos and videos <br> from your friends.</h4></div>  
+               
+                   <div class="register-data">
+                    <form method="POST" action="register.php">
+                        <input type="text"     name="username"   placeholder=" Username">
+                        <input type="text"     name="email"      placeholder=" Email">
+                        <input type="password" name="password"   placeholder=" Password">
+                       
+                        <button type="submit" name="sign_up">Sign up</button>
+                        <?php if ($error) echo $error;
+                        else echo $done;?>
+                    </form>
+                   </div> 
+                   <br>
+                <p>By signing up, you agree to our Terms ,<br> Data Policy and Cookies Policy .</p>
+
+             </div>
+
+             <div class="log-in"> <p>Have an Account ? <a href="login.php">Login</a></p> </div>
+        </section>
+      
+            
+        </div>
+    </body>
+
+</html>

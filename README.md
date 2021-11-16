@@ -11,7 +11,10 @@
 <br>- Explore other Users in using the application 
 <br>- AddPost &amp;Captions
 <br>- Make Likes &amp;WriteComments<br>
-### Front-end Technologies Used:  Html , Css  , JavaScript ,  Jquery <br> Back-end Technologies Used:  PHP ,  Mysql ,  AJAX, JSON
+### Front-end Technologies Used: 
+Html , Css  , JavaScript ,  Jquery <br> 
+### Back-end Technologies Used:  
+PHP ,  Mysql ,  AJAX, JSON <br>
 # Project Preview 
 https://user-images.githubusercontent.com/61662153/116804410-ceb0e480-ab1e-11eb-8d1f-0dfee56f47b1.mp4
 

@@ -1,5 +1,5 @@
 # Instagram-Clone
-simple clone for instagram web application .<br> Main Features : <br>
+# simple clone for instagram web application .<br> Main Features : <br>
 <br>- Login  &amp; Register
 <br>- Update All Data (Username,Pass,Avatar,email,etc) 
 <br>- Follow and Unfollow

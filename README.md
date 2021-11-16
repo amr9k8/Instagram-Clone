@@ -1,5 +1,5 @@
 # Instagram-Clone
-simple clone for instagram web application . Main Features : 
+simple clone for instagram web application .<br> Main Features : <br>
 <br>- Login  &amp; Register
 <br>- Update All Data (Username,Pass,Avatar,email,etc) 
 <br>- Follow and Unfollow
@@ -7,7 +7,7 @@ simple clone for instagram web application . Main Features :
 <br>- Show mutual likes
 <br>- Get Feeds From Your Following List
 <br>- Live php &amp; Ajax Search
-<br>- Explore other Users in the platform 
+<br>- Explore other Users in using the application 
 <br>- AddPost &amp;Captions
 <br>- Make Likes &amp;WriteComments<br>
 Front-end Technologies Used:  Html , Css  , JavaScript ,  Jquery Back-end Technologies Used:  OOP PHP ,  Mysql ,  AJAX, JSON

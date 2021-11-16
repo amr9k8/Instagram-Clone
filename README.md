@@ -1,4 +1,4 @@
-# Instagram-Clone (## a simple clone for instagram web application ).<br>
+# Instagram-Clone (<h3> a simple clone for instagram web application </h3> ).<br>
 
 ## Main Features :
 <br>- Login  &amp; Register

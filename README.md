@@ -22,4 +22,3 @@ https://user-images.githubusercontent.com/61662153/116804410-ceb0e480-ab1e-11eb-
 ![image](https://user-images.githubusercontent.com/61662153/116804487-6f070900-ab1f-11eb-907a-db7ae0c3520b.png)
 
 # Database Relations
-![image](https://github.com/amr9k8/text_to_dxf/blob/main/text-to-dxf-main%20php%20version/dxfConverted/samples/monologue.png)

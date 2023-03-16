@@ -22,5 +22,4 @@ PHP ,  Mysql ,  AJAX, JSON <br>
 # Database Relations
 ![image](https://user-images.githubusercontent.com/61662153/116804500-8b0aaa80-ab1f-11eb-82ed-cec31488514b.png)
 # Project Preview 
-https://media.githubusercontent.com/media/amr9k8/Instagram-Clone/blob/main/bandicam%202023-03-16%2011-27-38-102.mp4
 https://github.com/\amr9k8/Instagram-Clone/blob/<branch>//blob/main/bandicam%202023-03-16%2011-27-38-102.mp4?raw=true
